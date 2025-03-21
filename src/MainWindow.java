@@ -8,7 +8,7 @@ public class MainWindow
     JFrame frame = new JFrame("Simple Window");
 
     // Set the size of the window (width, height)
-    frame.setSize(1200, 756);
+    frame.setSize(900, 756);
 
     //fd
     frame.setLayout(null);
@@ -37,7 +37,7 @@ public class MainWindow
     MyList l1 = new MyList();
 
     // Set the bounds for the custom list panel
-    l1.setBounds(300, 150, 250, 450);
+    l1.setBounds(300, 0, 250, 450);
 
     frame.add(l1);
 
