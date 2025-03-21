@@ -8,7 +8,7 @@ public class MainWindow
     JFrame frame = new JFrame("Simple Window");
 
     // Set the size of the window (width, height)
-    frame.setSize(400, 300);
+    frame.setSize(1200, 756);
 
     //fd
     frame.setLayout(null);
@@ -32,6 +32,14 @@ public class MainWindow
     //Προσθεσε τα κουμπια
     frame.add(b1);
     frame.add(b2);
+
+    //βαλε και μια λιστα
+    MyList l1 = new MyList();
+
+    // Set the bounds for the custom list panel
+    l1.setBounds(300, 150, 250, 450);
+
+    frame.add(l1);
 
     // Εδώ μπλεκουμε λιγο, ο Listener λεει περιμενε κάποιο action
     // το action που θελω ειναι το click,
