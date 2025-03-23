@@ -32,6 +32,7 @@ public class MainWindow
     // Η μέθοδος setBounds μας επιτρέπει να αλλαξουμε μεγεθος και τη θεση
     b1.setBounds(100, 50, 150, 50);
     b2.setBounds(100, 150, 150, 50);
+    sdkmfglsakdnglasknglasknglaks
 
     //Προσθεσε τα κουμπια
     frame.add(b1);
