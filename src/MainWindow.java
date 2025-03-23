@@ -7,6 +7,7 @@ public class MainWindow
     // Create a new JFrame (window)
     JFrame frame = new JFrame("Simple Window");
 
+
     // Set the size of the window (width, height)
     frame.setSize(900, 756);
 
@@ -24,6 +25,9 @@ public class MainWindow
     // Η ετοιμη κλασση ονομαζεται JButton
     JButton b1 = new JButton("OK");
     JButton b2 = new JButton("Exit");
+    JButton b4 = new JButton("Exit");
+    JButton b6 = new JButton("Exit");
+    JButton b7 = new JButton("Exit");
 
     // Η μέθοδος setBounds μας επιτρέπει να αλλαξουμε μεγεθος και τη θεση
     b1.setBounds(100, 50, 150, 50);
